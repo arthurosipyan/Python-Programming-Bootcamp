@@ -1,0 +1,4 @@
+Hello world
+Godzilla is cool
+Today is April 6th
+This is a test for the python course on Udemy by Derak Banas
