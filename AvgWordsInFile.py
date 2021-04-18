@@ -26,5 +26,5 @@ with open("myFile.txt", encoding="utf-8") as my_file:
               "Number of Words: {}\n"
               "Avg Word Length: {}\n\n".format(line_num, line,
                                                len(line.split()),
-                                               ("{:.1f}".format(char_count / len(line.split())))))
+                                               "{:.1f}".format(char_count / len(line.split()))))
         line_num += 1

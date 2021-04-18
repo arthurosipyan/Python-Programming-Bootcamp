@@ -11,7 +11,7 @@ def main():
     print("Heads: {} ({}%)".format(ht_list.count("h"), str(int(((ht_list.count("h")/len(ht_list)) * 100)))))
     print("Tails: {} ({}%)".format(ht_list.count("t"), str(int(((ht_list.count("t")/len(ht_list)) * 100)))))
     end = time.time()
-    print("Runtime: ", (end-start))
+    print("Runtime: ", "{:.2f}".format(end - start))
 
 
 main()
